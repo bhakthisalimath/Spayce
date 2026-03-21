@@ -74,13 +74,30 @@ class PersonDetector:
         return tracked
 
 
-def draw_detections(frame: np.ndarray, tracked_people: list[dict[str, Any]]) -> np.ndarray:
+def draw_detections(frame: np.ndarray, tracked_people: list[dict[str, Any]], anonymize: bool = True) -> np.ndarray:
     output = frame.copy()
     for person in tracked_people:
         x1, y1, x2, y2 = person["bbox"]
         track_id = person.get("track_id", -1)
+        
+        # Compute bounding region for the head/face (top 20% of the bounding box)
         head_x = (x1 + x2) // 2
         head_y = max(0, y1 + int((y2 - y1) * 0.12))
+        head_h_region = int((y2 - y1) * 0.25)
+        head_w_region = int((x2 - x1) * 0.5)
+        
+        hx1 = max(0, head_x - head_w_region)
+        hy1 = max(0, y1)
+        hx2 = min(output.shape[1], head_x + head_w_region)
+        hy2 = min(output.shape[0], y1 + head_h_region)
+
+        # Apply Privacy Face Blurring (Execution Layer Step 4)
+        if anonymize and (hx2 > hx1) and (hy2 > hy1):
+            roi = output[hy1:hy2, hx1:hx2]
+            # Intense blur to completely anonymize the face
+            blurred_roi = cv2.GaussianBlur(roi, (51, 51), 0)
+            output[hy1:hy2, hx1:hx2] = blurred_roi
+
         cv2.rectangle(output, (x1, y1), (x2, y2), (51, 153, 255), 2)
         # Head indicator for live operator visibility.
         cv2.circle(output, (head_x, head_y), 7, (0, 255, 255), 2)

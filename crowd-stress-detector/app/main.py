@@ -19,10 +19,12 @@ from app.ui import (
     render_recommendations,
     render_trend_charts,
     render_zone_table,
+    render_ai_assistant,
 )
 from core.config import APP_TITLE, VIDEO_EXTENSIONS
 from core.export import build_session_pdf
 from core.utils import save_uploaded_file
+from core.llm_agent import CrowdSafetyLLM
 from core.video_processor import init_live_state, live_state_snapshot, process_live_frame, process_video_file
 from core.zones import build_zones_from_normalized, default_zone_templates
 
@@ -346,6 +348,23 @@ def main() -> None:
         file_name=f"{session['summary']['session_id']}_summary.pdf",
         mime="application/pdf",
     )
+
+    st.markdown("---")
+    st.header("Agentic Control Center")
+    if st.button("Generate Live LLM Analysis", type="primary", use_container_width=True):
+        with st.spinner("AI is analyzing privacy-blurred footage and telemetry..."):
+             # In a real app we pass the actual anonymized frame here,
+             # for Streamlit MVP we pass a blank frame or the last processed path frame
+             import numpy as np
+             dummy_frame = np.zeros((720, 1280, 3), dtype=np.uint8)
+             
+             # Create the JSON telemetry payload from the session summary
+             telemetry = session["summary"]
+             telemetry["active_anomalies"] = session.get("anomalies", [])[-3:] # last 3 anomalies
+             
+             llm = CrowdSafetyLLM()
+             ai_payload = llm.analyze_scene(dummy_frame, telemetry)
+             render_ai_assistant(ai_payload)
 
 
 if __name__ == "__main__":

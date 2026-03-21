@@ -1,9 +1,0 @@
-streamlit
-opencv-python
-ultralytics
-numpy
-pandas
-plotly
-reportlab
-pytest
-streamlink
