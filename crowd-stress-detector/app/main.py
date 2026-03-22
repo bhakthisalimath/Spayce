@@ -353,18 +353,18 @@ def main() -> None:
     st.header("Agentic Control Center")
     if st.button("Generate Live LLM Analysis", type="primary", use_container_width=True):
         with st.spinner("AI is analyzing privacy-blurred footage and telemetry..."):
-             # In a real app we pass the actual anonymized frame here,
-             # for Streamlit MVP we pass a blank frame or the last processed path frame
-             import numpy as np
-             dummy_frame = np.zeros((720, 1280, 3), dtype=np.uint8)
-             
-             # Create the JSON telemetry payload from the session summary
-             telemetry = dict(session["summary"])
-             telemetry["active_anomalies"] = session.get("anomalies", [])[-3:] # last 3 anomalies
-             
-             llm = CrowdSafetyLLM()
-             ai_payload = llm.analyze_scene(dummy_frame, telemetry)
-             render_ai_assistant(ai_payload)
+            # In a real app we pass the actual anonymized frame here,
+            # for Streamlit MVP we pass a blank frame or the last processed path frame
+            import numpy as np
+            dummy_frame = np.zeros((720, 1280, 3), dtype=np.uint8)
+            
+            # Create the JSON telemetry payload from the session summary
+            telemetry = session["summary"]
+            telemetry["active_anomalies"] = session.get("anomalies", [])[-3:] # last 3 anomalies
+            
+            llm = CrowdSafetyLLM()
+            ai_payload = llm.analyze_scene(dummy_frame, telemetry)
+            render_ai_assistant(ai_payload)
 
 
 if __name__ == "__main__":
