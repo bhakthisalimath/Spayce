@@ -18,13 +18,15 @@ class CrowdSafetyLLM:
     density, anomalies) to generate a Human-Readable Risk Assessment and Action Plan.
     """
     def __init__(self, api_key: str = None):
-        # Hardcoding the provided hackathon API key
-        self.api_key = api_key or os.environ.get("GEMINI_API_KEY", "AIzaSyBgAzwFSZcx_Fp28P7BCOqxH72kH2FeZFI")
+        # API key must be provided via argument or GEMINI_API_KEY environment variable.
+        self.api_key = api_key or os.environ.get("GEMINI_API_KEY")
         if genai and self.api_key:
             genai.configure(api_key=self.api_key)
             self.model = genai.GenerativeModel('gemini-2.5-flash')
         else:
             self.model = None
+            if genai and not self.api_key:
+                print("WARNING: Gemini API key not provided. Set GEMINI_API_KEY or pass api_key to CrowdSafetyLLM; LLM features will be disabled.")
 
     def analyze_scene(self, anonymized_frame: np.ndarray, telemetry_data: Dict[str, Any]) -> Dict[str, str]:
         """
