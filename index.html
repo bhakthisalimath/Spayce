@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CrowdSense AI - Hackathon Demo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="dashboard">
+        <header>
+            <div class="logo">
+                <div class="orb"></div>
+                <h1>CrowdSense <span>AI</span></h1>
+            </div>
+            <div class="status">
+                <span class="pulse"></span>
+                System Active
+            </div>
+        </header>
+
+        <main>
+            <section class="metrics">
+                <div class="card glass">
+                    <h3>Crowd Density</h3>
+                    <div class="value" id="density-val">84%</div>
+                    <div class="trend up">+12% vs avg</div>
+                </div>
+                <div class="card glass alert-state">
+                    <h3>Flow Disruption Risk</h3>
+                    <div class="value" id="risk-val">Critical</div>
+                    <div class="trend">Platform 4 Congestion</div>
+                </div>
+                <div class="card glass">
+                    <h3>Motion Variance</h3>
+                    <div class="value">2.4σ</div>
+                    <div class="trend up">Abnormal threshold</div>
+                </div>
+            </section>
+
+            <section class="hero-visual glass">
+                <div class="map-container">
+                    <h2>Live Station Heatmap</h2>
+                    <div class="heatmap">
+                        <div class="zone safe" style="top: 20%; left: 30%;"></div>
+                        <div class="zone warning" style="top: 50%; left: 60%;"></div>
+                        <div class="zone critical" style="top: 70%; left: 40%;"></div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

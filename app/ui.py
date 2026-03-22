@@ -6,6 +6,30 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
+def render_ai_assistant(llm_payload: dict[str, str]) -> None:
+    st.markdown("--- ")
+    st.subheader("🧠 AI Security Intelligence (Execution Layer)")
+    
+    reasoning = llm_payload.get("reasoning", "")
+    desc = llm_payload.get("description", "")
+    risk = llm_payload.get("risk_level", "")
+    action = llm_payload.get("action", "")
+    
+    # Color formatting based on risk
+    color = "gray"
+    if "Low" in risk:
+        color = "green"
+    elif "Medium" in risk:
+        color = "orange"
+    elif "High" in risk or "Critical" in risk:
+        color = "red"
+
+    if reasoning:
+        st.caption(f"*AI Causal Inference:* {reasoning}")
+    st.info(f"**Description:** {desc}")
+    st.markdown(f"**Assessed Risk:** <span style='color:{color}; font-weight:bold'>{risk}</span>", unsafe_allow_html=True)
+    st.error(f"**Prescribed Operator Action:** {action}")
+
 
 def render_metrics_header(summary: dict[str, Any]) -> None:
     st.subheader("Live Session Overview")
