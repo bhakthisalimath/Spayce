@@ -359,7 +359,7 @@ def main() -> None:
              dummy_frame = np.zeros((720, 1280, 3), dtype=np.uint8)
              
              # Create the JSON telemetry payload from the session summary
-             telemetry = session["summary"]
+             telemetry = dict(session["summary"])
              telemetry["active_anomalies"] = session.get("anomalies", [])[-3:] # last 3 anomalies
              
              llm = CrowdSafetyLLM()
