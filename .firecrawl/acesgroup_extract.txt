@@ -1,0 +1,432 @@
+=== PAGE 1 ===
+Gfnf 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+PERFORMANCE AUDIT RESPONSE 14 JULY 2020 
+Train station crowding  
+ACE S GROU P RE SP ON SE  TO  N E W S OU T H WA LE S  AU D IT OR -GE N E RA L ’S RE PO RT  
+
+=== PAGE 2 ===
+ 
+ 
+ACESGroup | Performance audit response | Train station Crowding| 14th July 2020 
+2 
+ 
+Executive Summary 
+This report has been prepared by ACESGroup in response to the New South Wales Auditor-
+General’s Report to Parliament for ‘Train station crowding – Measuring and understanding 
+crowding at train stations’ dated 30 April 2020. 
+The purpose of the report is to offer practical cost-effective solutions to certain key findings 
+of the Auditor-General’s report.  
+This report proposes a collaboration project to demonstrate how the DCM decision support 
+engine and dashboard could be cost-effectively configured and implemented to aid real-
+time decision-making about crowd management station by station. 
+The DCM decision support engine and dashboard applies advanced data analytics 
+algorithms and techniques that apply Complex Adaptive Systems to address “When do 
+customers become a crowd, and when should crowd management be applied?” 
+Section 1 notes certain key findings of the audit report and suggests currently available 
+solutions. 
+Section 2 of the report provides a proposed integrated offering.  
+Section 3 of the report details the history and experience of the authors. 
+The services offered are: 
+ unique analytical software services to measure crowd density flow and mood in 
+crowds (to validate the call for more and better data), 
+ crowd management consultancy services to transfer knowledge to TfNSW platform 
+and station staff as to how to interpret the data as actionable insights for crowd 
+management actions,  
+ risk management consultancy services to assess crowd risks and manage and 
+mitigate crowd risks, in consultation with station staff and applying the ISO 31000 
+(Risk Management) Standard, and 
+ an invitation to develop a crowd management training program for TfNSW staff with 
+a Registered Training Organisation.  
+
+=== PAGE 3 ===
+ 
+ 
+ACESGroup | Performance audit response | Train station Crowding| 14th July 2020 
+3 
+ 
+1. Key findings of the Auditor-General’s report and our 
+responses 
+Sydney Trains has identified crowding on platforms as a key strategic risk but does not have a 
+specific strategy to manage crowding  
+To develop a crowd management strategy , large sets of data need to be collected , interpreted 
+and applied having regard to the Transport for NSW’s (TfNSW’s) acceptable risk profile.  
+ACESGroup provides strategic crowd risk assessment, management and mitigation services and 
+associated consultancy and advice. ACESGroup has done so for many years.  ACESGroup 
+developed Dynamic Crowd Measurement (DCM) as an adv anced data analytics application to 
+enable real-time crowd management by DCM users, utilising reliable and verifiable data insights 
+to implement stra tegies and site-specific plans developed by or for each DCM user .  Real-time 
+measurement of density, flow and mood of people at and around sites presented to decision-
+makers as readily understood visualisations enable reliably consistent decision-making by crowd 
+managers.    The timing and effect of management interventions can be measured.  This is a digital 
+crowd management landscape form. 
+Sydney Trains response to crowding is to restrict customers from accessing platforms or stations 
+which will likely result in deteriorating satisfaction and increased travel times for those 
+customers directly affected 
+The DCM solution is able to provide real-time reliable insights as to the collective mood 
+(sentiment) of customers, ensuring that customer sentiment is at the forefront when decision 
+makers are required to implement and execute crowd management plans.   
+Precise information allows for prompt and effective action.   
+The DCM dashboard can be provided on the mobile device of station staff.  See the link to mood 
+measurement dash board working at VIVID Sydney in 2019.  
+Sydney Trains does not directly assess the effect of its management of station crowding on 
+customer experience and travel times 
+Collective sentiment measures will highlight any change in mood of customers on platforms, 
+providing triggers for station staff to make communications or for  re-scheduling.  Long and short 
+term projections (including extent of deviation from historical normal for particular platform at 
+particular time on particular day) can be made by analysing the relationship between ve locity, 
+density and mood on station platforms.  Station and platform specific c ustomer sentiment 
+measures can become a key performance indicator. 
+
+=== PAGE 4 ===
+ 
+ 
+ACESGroup | Performance audit response | Train station Crowding| 14th July 2020 
+4 
+DCM can provide quantitative data on the disparity of customer sentimen t caused by delays in 
+access and travel times.   
+DCM is working towards an automated alert system for transport hubs and seeking research 
+partners to streamline management response alerts. 
+Sydney Trains devolves responsibility for the management of station crowding to local station 
+managers but does not have sufficient oversight of crowd management plans at stations  
+ 
+ACESGroup can provide a suite of crowd and risk management materials addressed specifically to 
+the needs of TfNSW and Sydney Trains .  Travis Semmens , an expert crowd management 
+consultant responsible for planning for multiple NSW major public events (including VIVID, for the 
+last 10 years, and City of Sydney New Years’ Eve, for the past 3 years), would lead this task.   
+ 
+ACESGroup includes a R egistered Training Organisation, Affirm Training RTO 900 24 to provide 
+accredited crowd management training .  This would equip TfNSW and Sydney Trains with 
+education and resources required to implement crowd management plans at stations.  Training 
+could be provided to all relevant staff members  to teach staff how to respond to the data alerts 
+and why, for reliably effective and consistent crowd control management. 
+DCM w ould provide data analytics on crowd density, velocity and mood in order to provide 
+forecasts for staff intervention, benchmarking and planning input.  These analytics will act as the 
+basis when drafting and auditing crowd management plans. 
+Sydney Trains does not directly measure crowding at stations 
+DCM can directly measure crowding in stations through existing digital Closed Circuit Television 
+(CCTV) inputs and provide analysis by pr oviding person counts, density, and flow  and mood 
+ratings.  
+DCM is largely agnostic as to digital CCTV inputs.  The DCM solution has been developed to handle 
+inputs from low light and other sub -optimal installations.  The DCM solution should be suitable 
+for implementation in relation to digital CCTV inputs from many stations without CCTV retrofit. 
+The DCM solution can present data visualisations of relationships between density, velocity and 
+mood,  thereby providing a verifiably reliable evidence base to aid in decision making for good 
+crowd management.  
+Operation of the DCM solution does not require retention of input data, or merger of CCTV input 
+data with any external datasets, further protecting data privacy of commuters and data security. 
+
+=== PAGE 5 ===
+ 
+ 
+ACESGroup | Performance audit response | Train station Crowding| 14th July 2020 
+5 
+Airport Link is responsible for the management of crowding at stations on the airport line, 
+however the procedures it uses are limited in comparison to Sydney Trains' customer 
+management plans 
+The collaboration suggested can be across all platforms and offered to all partners and 
+stakeholders, including surrounding streets, arcades, pedestrian tunnels and interchanges.  
+The crowd management plan would be templated to a system -wide standard but configured to 
+be station specific .  These configurations can address features of paricular station concourses, 
+surrounding streets, arcades, pedestrian tunnels and interchanges.  
+Sydney Trains does not have a routine process for identifying whether crowding contributed to 
+minor safety incidents 
+Crowd management plans and related incident response procedures could establish this routine 
+process. 
+The DCM solution can present a time stamped and verifiably reliable historical evidence base. 
+TfNSW is delivering a program to influence transport demand in key precincts, but the overall 
+impact of this program on crowding is not clear 
+Transport demand can be supported by real time quantitative data to verify the models currently 
+produced.  
+Actual real-time quantitative crowd data can support scheduling review with a verifiably reliable 
+historical evidence base, to enable build of better scheduling models for Transport for NSW and 
+Sydney Trains.  
+ 
+2. Proposed Integrated Offering 
+ 
+The purpose of this report is to propose an integrated offer.   
+ 
+The auditor’s report details specific skill sets to remedy the key issues identified.  ACESGroup 
+comprises of  several divisions/entities that can offer crowd management training, crowd 
+management consultancy, crowd risk management and crowd data collection.    Collectively this 
+group has the skills to identify all the key issues.  This integrated offering includes Dynamic Crowd 
+Measurement Pty Ltd  and ACESGroup including its divisions Affirm Training and Avert Risk 
+Management Services (trading names of ACESGroup) .   Established in 1985, ACESGroup is a long 
+term government supplier, including as a panel provider to the current NSW Whole of Government 
+contract since 2010. 
+ 
+
+=== PAGE 6 ===
+ 
+ 
+ACESGroup | Performance audit response | Train station Crowding| 14th July 2020 
+6 
+To match the key issues to the skill sets required a detailed table is offered below. 
+Key Issues ACESGroup  
+Sydney Trains has identified 
+crowding on platforms as a key 
+strategic risk but does not have a 
+specific strategy to manage 
+crowding 
+DCM can provide: 
+ Live and historical crowd data analytics 
+ Notifications providing updates on changes to crowd 
+metrics and alerts levels 
+ Playback of real-time and retrospective data against live 
+images and heat maps 
+ Forecasting of actions required for management 
+intervention for mood manipulation. 
+ 
+ACESGroup can provide: 
+ Draft strategies to manage crowding, management, 
+intervention and responses 
+ Policies to support creation, monitoring and evaluation 
+of Crowd Management Plans. 
+Avert can provide: 
+ Risk management planning and training for all relevant 
+staff members 
+ Policies and procedures to support creation, monitoring 
+and evaluation of risk and safety measures. 
+Affirm Training can provide:  
+ staff capability training. 
+Sydney Trains response to 
+crowding is to restrict customers 
+from accessing platforms or 
+stations which will likely result in 
+deteriorating satisfaction and 
+increased travel times for those 
+customers directly affected 
+ 
+DCM can provide:  
+ Data analytics to show mood, density and velocity 
+ Mood analytics analysing customer sentiment.  
+Sydney Trains does not directly 
+assess the effect of its 
+management of station crowding 
+on customer experience and travel 
+times 
+DCM can provide: 
+ Data measuring mood and facial expression 
+interpretation (negative, neutral and positive) allowing 
+4-15-minute advance warnings of falls in crowd mood 
+ Data providing accurate customer experience and 
+feedback. 
+ 
+Sydney Trains devolves 
+responsibility for the management 
+of station crowding to local station 
+managers but does not have 
+DCM can provide: 
+ Data analytics providing accurate data on density, 
+velocity and mood to provide forecasts for staff 
+intervention, benchmarking and planning input 
+ Periodic sentiment reporting with visual support 
+
+=== PAGE 7 ===
+ 
+ 
+ACESGroup | Performance audit response | Train station Crowding| 14th July 2020 
+7 
+sufficient oversight of crowd 
+management plans at stations 
+ Data analytics to assist in weekly forecasting for staff 
+allocation, cost minimization, effective planning for 
+future events 
+ Data to assist in providing metrics via live dashboard for 
+effective management and intervention. 
+ 
+Affirm Training can provide:  
+ Training required for crowd management 
+implementation 
+ Training and recommendations on gap analysis 
+ Training and recommendations on management 
+intervention 
+ Training on knowledge on crowd issues and responses 
+ Consultancy to streamline Crowd Management Plans 
+and training for holistic implementation 
+ Scenario training and material to develop pre-planned 
+management technics. 
+Avert can provide:  
+ formal risk planning management. 
+Sydney Trains does not directly 
+measure crowding at stations 
+DCM can provide: 
+ Real time data and analytics from multiple locations 
+simultaneously via zone monitoring 
+ Data on velocity, density and mood providing data 
+playback 
+ Geo-spatial heat map to identify hot spots for density, 
+velocity, mood and social distancing 
+ Weekly forecasting to effectively allocate staff 
+ Measurement of customer experience based off mood 
+and facial expressions of patrons 
+ 4-15-minute advance warnings in anticipation of phase 
+changes based on data collection 
+ Data aggregation such as transport arrivals. 
+TfNSW and Sydney Trains do not 
+have performance measures for 
+crowding at stations 
+ 
+DCM can provide: 
+ Real-time data collection and analytics to identify 
+weaknesses to improve KPI’s 
+ Data evidence to draft the non-existent KPI’s for 
+crowding 
+ Data measuring the mood of patrons (low, medium, 
+high) to measure patron satisfaction 
+ Weekly forecasting tool to effectively allocate staff in 
+high problem areas. 
+ACESGroup can provide: 
+ Gap analysis training and implementation for 
+performance measures 
+
+=== PAGE 8 ===
+ 
+ 
+ACESGroup | Performance audit response | Train station Crowding| 14th July 2020 
+8 
+ Training for station staff for knowledge on crowd issues 
+and responses. 
+ 
+Sections 1 & 2 detailed the key findings of the Auditors’ Report and provided accessible solutions 
+that are currently available for immediate deployment.    
+The DCM solution provides quantitative inputs to develop decision making models , however 
+automation of business processes for crowd management capability requires more than analysis 
+of raw data.  We propose a hybrid approach.  
+ 
+The flow chart below has been adapted from ISO  31000, the Risk Management standard,  and is 
+provided to show the research principle that underpins the proposed solution implemented with 
+TfNSW.  DCM provides the  raw data on crowd mood (being the output of suc cessful crowd 
+management) then uses Bayesian networks and consultation with TfNSW staff to analyse and 
+determine when crowd intervention is required.     
+ 
+This dual approach of expert op inion and instrumentation data can be used to build a causal 
+inference engine.  The  inference engine can assist building an agent based model and combi ne 
+data from the inference engine to verify, modify and correct computational assumptions building 
+an accurate decision making process , analogous to ‘having three hands on the steering wheel ’. 
+With robust decision support technology, consistent management response can be enabled and 
+its effect (outcome) measured, improving feedback loops and continuous improvement in plans 
+and process. 
+ 
+Image:  Flowchart Principles adapted from ISO 31000 
+ 
+
+
+=== PAGE 9 ===
+ACESGroup | Performance audit response | Train station Crowding| 14th July 2020 
+9 
+DCM applies  Snowden’s Cynefin Management Framework (Snowden & Boone 2007) to crowd 
+complexity.  The Cynefin Management Framework has been practically applied in strategic 
+Policing where a range of diverse and interdependent factors arise and must be assessed to 
+determine response. 
+The Cynefin Management Framework as adapted to crowd management provides practical 
+management response for each level of complexity.  For instance, in an ordered but complicated 
+state, sense‒analyse‒respond is the optimum response, but once the crowd state moves to an 
+unordered complex state, then a better approach is probe–sense–respond, noting that sensing is 
+required in all states at various stages.  This approach reflects real life tactics of experienced crowd 
+controllers.   
+3. About ACESGroup
+ACESGroup’s approach to maximising efficiency and productivity is to track and monitor activity
+performance using customised and propriety software solutions for crowd management.  This
+provides the opportunity to ensure organisational consistency, consolidate and simplify
+processes and remove inefficiencies.  ACESGroup both innovates to lead industry best practice
+and adopts and leverages industry leading practices.
+Developing emerging technologies to solve client pain-points, ACESGroup can supplement and
+enhance traditional security and crowd management staffing solutions including, vision analytics
+for intelligence for crowd decision support.
+3.1 Dynamic Crowd Measurement (DCM) 
+DCM was initially built to define “when pedestrians becom e a crowd and when a crowd needs 
+crowd management”.  This question can solve the TfNSW identification resourcing and scheduling 
+responses.  To solve the crowd management puzzle an algorithm had to be developed from the 
+loosely coupled factors that affected management output.  An instrument was invented to collect 
+and visualise three previously undefined dependant factors.  The DCM solution takes a video 
+stream of images, typically sourced from closed circuit television (CCTV) cameras, and analyses 
+these inputs to provide movement strategies and management insights to crowd managers.  DCM 
+is privacy safeguarded.  DCM does not use facial recognition or store or retain any images in the 
+analytic process.  
+
+=== PAGE 10 ===
+ 
+ 
+ACESGroup | Performance audit response | Train station Crowding| 14th July 2020 
+10 
+DCM recognises and exploits patterns contained in large data sets to inform predictive modelling, 
+being able to identify ‘trigger points’ and phase changes to implement crowd management 
+techniques and reduce crowd congestion to the desired target levels.  
+ 
+The DCM object ive is to understand, model, and manage people in spaces, by monitoring 
+movement and occupancy levels in real -time and making adjustments to improve safety and 
+ensure a positive customer experience.   
+Below is a video of DCM also measuring spatial distancing compliance at Circular Quay. 
+ 
+ 
+Integration of the Crowd Management and Social Distancing tool with other systems can 
+provide streamlined management of crowds and aiding decision making.   
+
+
+=== PAGE 11 ===
+ 
+ 
+ACESGroup | Performance audit response | Train station Crowding| 14th July 2020 
+11 
+The DCM solution benefits include: 
+ Data to model future design capability 
+ Evidence to anticipate decision for better place management 
+ Contribution to real-time management of pedestrians and crowds based on real-time data 
+rather than prior risk assessments, models or assumptions 
+ Better planning for crowd staffing, budgeting, training and management purposes. 
+ 
+3.2 Avert Risk Management and Affirm Training 
+Avert R isk Management Services is the division of  ACESGroup that provides expert risk 
+management and work, health and safety (WHS)  advisory services for crowded plac es and 
+public spaces.  Documents are aligned with National WHS Legislation and  International 
+standards, including ISO 31000.  Experience at major publ ic events such as New Year’s Eve , 
+Sydney Royal Easter Show and VIVID Sydney reinforce and enhance our mass gathering crowd 
+risk knowledge. 
+Affirm Training is a registered training organisation (RTO), registration code 90024 with an 
+extensive scope of security and crowd management accredited and customised courses.  Affirm 
+Training understand vocational training  and have the capability to contextualise training to 
+optimise crowd management competency for platform and staff. 
+ 
+4.  An Integrated Solution 
+ACESGroup, DCM, Avert and Affirm Training can provide a combined solution providing data 
+rich analytics, implementation, integration, education and auditing for Transport for NSW and 
+Sydney Trains to ensure the recommendations by the Auditor-General can be achieved. 
+ACESGroup CEO Travis Semmens , and Founding Director Andrew Tatrai, are experts in crowd 
+management with over 4 0 years of combined experience.  They are able to systematically 
+collect crowd information and provide reports advising on procedures required for intervention 
+and management purposes.  
+Both Travis and Andrew are also the co-founders of DCM, which is able to contribute to the 
+proposed solution by providing data analytics on crowd density, velocity and mood.  These 
+analytics can be interpreted individually and/or collectively and will aid in providing evidentiary 
+support when implementing strategies to manage crowds and risks.  
+ 
+ 
