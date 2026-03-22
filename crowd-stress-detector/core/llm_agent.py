@@ -22,7 +22,7 @@ class CrowdSafetyLLM:
         self.api_key = api_key or os.environ.get("GEMINI_API_KEY", "AIzaSyBgAzwFSZcx_Fp28P7BCOqxH72kH2FeZFI")
         if genai and self.api_key:
             genai.configure(api_key=self.api_key)
-            self.model = genai.GenerativeModel('gemini-2.5-flash')
+            self.model = genai.GenerativeModel('gemini-1.5-flash')
         else:
             self.model = None
 
