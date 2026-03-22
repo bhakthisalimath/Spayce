@@ -16,12 +16,13 @@ def render_ai_assistant(llm_payload: dict[str, str]) -> None:
     action = llm_payload.get("action", "")
     
     # Color formatting based on risk
+    risk_normalized = risk.upper()
     color = "gray"
-    if "Low" in risk:
+    if "LOW" in risk_normalized:
         color = "green"
-    elif "Medium" in risk:
+    elif "MEDIUM" in risk_normalized:
         color = "orange"
-    elif "High" in risk or "Critical" in risk:
+    elif "HIGH" in risk_normalized or "CRITICAL" in risk_normalized:
         color = "red"
 
     if reasoning:
