@@ -16,10 +16,10 @@ MOCK_TELEMETRY = {
 def test_agent_pipeline():
     print("Initializing Pipeline...")
     detector = PersonDetector("yolov8n.pt")
-    llm = CrowdSafetyLLM() # Uses mock unless OPENAI_API_KEY is exported
+    llm = CrowdSafetyLLM() # Uses mock unless GEMINI_API_KEY is exported
     
     print("Grabbing sample frame for test...")
-    video_path = r"data\sample_videos\4sec_GOOD_ANGLE_demo.mp4"
+    video_path = "data/sample_videos/4sec_GOOD_ANGLE_demo.mp4"
     cap = cv2.VideoCapture(video_path)
     ret, frame = cap.read()
     
